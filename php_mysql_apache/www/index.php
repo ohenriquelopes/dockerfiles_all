@@ -1,7 +1,8 @@
 <?php
 
 include 'artigo.php';
-
+$artigo = new Artigo();
+$artigos = $artigo->exibirTodos();
 ?>
 
 <!DOCTYPE html>
